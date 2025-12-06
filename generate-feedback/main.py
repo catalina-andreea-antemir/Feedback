@@ -2,10 +2,50 @@ import pickle
 import json
 import os
 import random
+import argparse
+import configparser
 
-# Constants for student count limits
-MIN_STUDENTS = 20
-MAX_STUDENTS = 100
+def load_config(filename='config.ini'):
+    # Default values in case config file is missing
+    config_values = {
+        'min_students': 20,
+        'max_students': 100,
+        'output_dir': 'feedback_contents'
+    }
+
+    if not os.path.exists(filename):
+        print(f"Config file '{filename}' not found. Using internal defaults.")
+        return config_values
+
+    config = configparser.ConfigParser()
+    config.read(filename)
+
+    if 'GENERATOR' in config:
+        # We use .getint for numbers and .get for strings
+        config_values['min_students'] = config.getint('GENERATOR', 'MIN_STUDENTS', fallback=20)
+        config_values['max_students'] = config.getint('GENERATOR', 'MAX_STUDENTS', fallback=100)
+        config_values['output_dir'] = config.get('GENERATOR', 'OUTPUT_DIR', fallback='feedback_contents')
+
+    return config_values
+
+def parse_arguments(file_config):
+    # The default values are taken from the loaded config file
+    parser = argparse.ArgumentParser(description="Generate mock feedback data.")
+
+    parser.add_argument(
+        "--min-students",
+        type=int,
+        default=file_config['min_students'],
+        help="Minimum number of students per course (overwrites config)"
+    )
+    parser.add_argument(
+        "--max-students",
+        type=int,
+        default=file_config['max_students'],
+        help="Maximum number of students per course (overwrites config)"
+    )
+
+    return parser.parse_args()
 
 def load_pickle(filename):
     # Loads .p files
@@ -47,7 +87,7 @@ def generate_feedback_data(feedback_id, course_name, teacher_name, num_students)
     # Builds the JSON structure for a single feedback form
     anon_attempts = []
 
-    base_attempt_id = feedback_id
+    base_attempt_id = feedback_id * 100
     base_response_id = feedback_id * 200
 
     current_response_global_counter = base_response_id
@@ -111,6 +151,26 @@ def generate_feedback_data(feedback_id, course_name, teacher_name, num_students)
     }
 
 def main():
+    # 1. Load config from file first
+    file_config = load_config()
+
+    # 2. Parse arguments (using file values as defaults)
+    args = parse_arguments(file_config)
+
+    # 3. Use the final values
+    min_students = args.min_students
+    max_students = args.max_students
+    output_dir = file_config['output_dir']
+
+    # Validation
+    if min_students > max_students:
+        print(f"Minimum students ({min_students}) cannot be greater than maximum students ({max_students}).")
+        return
+
+    print(f"Starting data generation...")
+    print(f"Configuration: Min={min_students}, Max={max_students}")
+    print(f"Output Directory: '{output_dir}'")
+
     feedbacks = load_pickle('feedbacks.p')
     courses = load_pickle('courses.p')
     categories = load_pickle('categories.p')
@@ -118,7 +178,6 @@ def main():
     courses_map = {c['id']: c for c in courses}
     categories_map = {cat['id']: cat for cat in categories}
 
-    output_dir = 'feedback_contents'
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
         print(f"Folder created: '{output_dir}'")
@@ -131,7 +190,7 @@ def main():
         course_id = fb.get('course')
 
         if fb_id:
-            # Find the course
+            # Find the course object
             course_obj = courses_map.get(course_id)
             course_name = "Curs Necunoscut"
             category_name = ""
@@ -149,7 +208,7 @@ def main():
 
             # Simulated data
             teacher_name = "Prenume NUME"
-            num_students = random.randint(MIN_STUDENTS, MAX_STUDENTS)
+            num_students = random.randint(min_students, max_students)
 
             # Generate JSON
             json_data = generate_feedback_data(fb_id, full_subject_name, teacher_name, num_students)
