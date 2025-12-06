@@ -5,8 +5,9 @@ import random
 import argparse
 import configparser
 
+PICKLE_INPUT_DIR = 'pickles'
+
 def load_config(filename='config.ini'):
-    # Default values in case config file is missing
     config_values = {
         'min_students': 20,
         'max_students': 100,
@@ -21,7 +22,6 @@ def load_config(filename='config.ini'):
     config.read(filename)
 
     if 'GENERATOR' in config:
-        # We use .getint for numbers and .get for strings
         config_values['min_students'] = config.getint('GENERATOR', 'MIN_STUDENTS', fallback=20)
         config_values['max_students'] = config.getint('GENERATOR', 'MAX_STUDENTS', fallback=100)
         config_values['output_dir'] = config.get('GENERATOR', 'OUTPUT_DIR', fallback='feedback_contents')
@@ -29,7 +29,6 @@ def load_config(filename='config.ini'):
     return config_values
 
 def parse_arguments(file_config):
-    # The default values are taken from the loaded config file
     parser = argparse.ArgumentParser(description="Generate mock feedback data.")
 
     parser.add_argument(
@@ -48,15 +47,14 @@ def parse_arguments(file_config):
     return parser.parse_args()
 
 def load_pickle(filename):
-    # Loads .p files
-    if not os.path.exists(filename):
-        print(f"FILE NOT FOUND: '{filename}'.")
+    full_path = os.path.join(PICKLE_INPUT_DIR, filename)
+    if not os.path.exists(full_path):
+        print(f"FILE NOT FOUND: '{full_path}'.")
         return []
-    with open(filename, 'rb') as f:
+    with open(full_path, 'rb') as f:
         return pickle.load(f)
 
 def get_random_response(question_type):
-    # Generates random responses respecting the feedback form logic
     if question_type == "grade":
         grade = random.randint(5, 10)
         return str(grade), str(grade)
@@ -84,7 +82,6 @@ def get_random_response(question_type):
     return "", ""
 
 def generate_feedback_data(feedback_id, course_name, teacher_name, num_students):
-    # Builds the JSON structure for a single feedback form
     anon_attempts = []
 
     base_attempt_id = feedback_id * 100
@@ -111,7 +108,6 @@ def generate_feedback_data(feedback_id, course_name, teacher_name, num_students)
         responses = []
         current_attempt_id = base_attempt_id + i
 
-        # Template for data display
         for q_name, q_type, q_default in questions_structure:
             entry = {
                 "id": current_response_global_counter,
@@ -151,18 +147,14 @@ def generate_feedback_data(feedback_id, course_name, teacher_name, num_students)
     }
 
 def main():
-    # 1. Load config from file first
     file_config = load_config()
 
-    # 2. Parse arguments (using file values as defaults)
     args = parse_arguments(file_config)
 
-    # 3. Use the final values
     min_students = args.min_students
     max_students = args.max_students
     output_dir = file_config['output_dir']
 
-    # Validation
     if min_students > max_students:
         print(f"Minimum students ({min_students}) cannot be greater than maximum students ({max_students}).")
         return
@@ -190,7 +182,6 @@ def main():
         course_id = fb.get('course')
 
         if fb_id:
-            # Find the course object
             course_obj = courses_map.get(course_id)
             course_name = "Curs Necunoscut"
             category_name = ""
@@ -201,22 +192,17 @@ def main():
                 if cat_id and cat_id in categories_map:
                     category_name = categories_map[cat_id].get('name', '')
 
-            # Compose subject name
             full_subject_name = course_name
             if category_name:
                 full_subject_name += f" ({category_name})"
 
-            # Simulated data
             teacher_name = "Prenume NUME"
             num_students = random.randint(min_students, max_students)
 
-            # Generate JSON
             json_data = generate_feedback_data(fb_id, full_subject_name, teacher_name, num_students)
 
-            # Save file
             filename = os.path.join(output_dir, f"{fb_id}.json")
             with open(filename, 'w', encoding='utf-8') as f:
-                # Feedbacks contain diacritics, so we use ensure_ascii=False
                 json.dump(json_data, f, indent=2, ensure_ascii=False)
 
             count += 1
