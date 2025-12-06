@@ -4,10 +4,18 @@ import os
 import random
 import argparse
 import configparser
+import logging
 
 PICKLE_INPUT_DIR = 'pickles'
 
-def load_config(filename='config.ini'):
+logging.basicConfig(
+    level = logging.INFO,
+    format = '%(levelname)s: %(message)s',
+    handlers = [logging.FileHandler("generator.log"), logging.StreamHandler()]
+)
+logger = logging.getLogger(__name__)
+
+def load_config(filename='config.conf'):
     config_values = {
         'min_students': 20,
         'max_students': 100,
@@ -15,16 +23,16 @@ def load_config(filename='config.ini'):
     }
 
     if not os.path.exists(filename):
-        print(f"Config file '{filename}' not found. Using internal defaults.")
+        logger.warning(f"Config file '{filename}' not found. Using internal defaults.")
         return config_values
 
     config = configparser.ConfigParser()
     config.read(filename)
 
     if 'GENERATOR' in config:
-        config_values['min_students'] = config.getint('GENERATOR', 'MIN_STUDENTS', fallback=20)
-        config_values['max_students'] = config.getint('GENERATOR', 'MAX_STUDENTS', fallback=100)
-        config_values['output_dir'] = config.get('GENERATOR', 'OUTPUT_DIR', fallback='feedback_contents')
+        config_values['min_students'] = config.getint('GENERATOR', 'MIN_STUDENTS', fallback = 20)
+        config_values['max_students'] = config.getint('GENERATOR', 'MAX_STUDENTS', fallback = 100)
+        config_values['output_dir'] = config.get('GENERATOR', 'OUTPUT_DIR', fallback = 'feedback_contents')
 
     return config_values
 
@@ -33,24 +41,27 @@ def parse_arguments(file_config):
 
     parser.add_argument(
         "--min-students",
-        type=int,
-        default=file_config['min_students'],
-        help="Minimum number of students per course (overwrites config)"
+        type = int,
+        default = file_config['min_students'],
+        help = "Minimum number of students per course (overwrites config)"
     )
+
     parser.add_argument(
         "--max-students",
-        type=int,
-        default=file_config['max_students'],
-        help="Maximum number of students per course (overwrites config)"
+        type = int,
+        default = file_config['max_students'],
+        help = "Maximum number of students per course (overwrites config)"
     )
 
     return parser.parse_args()
 
 def load_pickle(filename):
     full_path = os.path.join(PICKLE_INPUT_DIR, filename)
+
     if not os.path.exists(full_path):
-        print(f"FILE NOT FOUND: '{full_path}'.")
+        logger.error(f"FILE NOT FOUND: '{full_path}'.")
         return []
+
     with open(full_path, 'rb') as f:
         return pickle.load(f)
 
@@ -148,7 +159,6 @@ def generate_feedback_data(feedback_id, course_name, teacher_name, num_students)
 
 def main():
     file_config = load_config()
-
     args = parse_arguments(file_config)
 
     min_students = args.min_students
@@ -156,12 +166,12 @@ def main():
     output_dir = file_config['output_dir']
 
     if min_students > max_students:
-        print(f"Minimum students ({min_students}) cannot be greater than maximum students ({max_students}).")
+        logger.error(f"Minimum students ({min_students}) cannot be greater than maximum students ({max_students}).")
         return
 
-    print(f"Starting data generation...")
-    print(f"Configuration: Min={min_students}, Max={max_students}")
-    print(f"Output Directory: '{output_dir}'")
+    logger.info(f"Starting data generation...")
+    logger.info(f"Configuration: Min = {min_students}, Max = {max_students}")
+    logger.info(f"Output Directory: '{output_dir}'")
 
     feedbacks = load_pickle('feedbacks.p')
     courses = load_pickle('courses.p')
@@ -172,9 +182,9 @@ def main():
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-        print(f"Folder created: '{output_dir}'")
+        logger.info(f"Folder created: '{output_dir}'")
 
-    print(f"Loaded {len(feedbacks)} feedback forms and {len(courses)} courses.")
+    logger.info(f"Loaded {len(feedbacks)} feedback forms and {len(courses)} courses.")
 
     count = 0
     for fb in feedbacks:
@@ -202,14 +212,14 @@ def main():
             json_data = generate_feedback_data(fb_id, full_subject_name, teacher_name, num_students)
 
             filename = os.path.join(output_dir, f"{fb_id}.json")
-            with open(filename, 'w', encoding='utf-8') as f:
-                json.dump(json_data, f, indent=2, ensure_ascii=False)
+            with open(filename, 'w', encoding = 'utf-8') as f:
+                json.dump(json_data, f, indent = 2, ensure_ascii = False)
 
             count += 1
-            if count % 50 == 0:
-                print(f"Generating {count} files...")
+            if count % 150 == 0:
+                logger.info(f"Generating {count} files...")
 
-    print(f"Generated {count} files in '{output_dir}'.")
+    logger.info(f"Generated {count} files in '{output_dir}'.")
 
 if __name__ == "__main__":
     main()
