@@ -1,0 +1,2834 @@
+{
+  "attempts": [],
+  "totalattempts": 0,
+  "anonattempts": [
+    {
+      "id": 8641,
+      "courseid": 0,
+      "number": 50,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "4    - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "5",
+          "rawval": "5"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "80% .. 100%",
+          "rawval": "5"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "3",
+          "rawval": "3"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        }
+      ]
+    },
+    {
+      "id": 8868,
+      "courseid": 0,
+      "number": 51,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "5    - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "10",
+          "rawval": "10"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "40% .. 60%",
+          "rawval": "3"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "5",
+          "rawval": "5"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        }
+      ]
+    },
+    {
+      "id": 9652,
+      "courseid": 0,
+      "number": 52,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "4    - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "7",
+          "rawval": "7"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "60% .. 80%",
+          "rawval": "4"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "2",
+          "rawval": "2"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "",
+          "rawval": ""
+        }
+      ]
+    },
+    {
+      "id": 11534,
+      "courseid": 0,
+      "number": 53,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "1    - Deloc de acord",
+          "rawval": "5"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "10",
+          "rawval": "10"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "80% .. 100%",
+          "rawval": "5"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "1  - Deloc de acord",
+          "rawval": "5"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "1  - Deloc de acord",
+          "rawval": "5"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "1  - Deloc de acord",
+          "rawval": "5"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "10",
+          "rawval": "10"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        }
+      ]
+    },
+    {
+      "id": 12053,
+      "courseid": 0,
+      "number": 54,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "4    - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "10",
+          "rawval": "10"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "80% .. 100%",
+          "rawval": "5"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "8",
+          "rawval": "8"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        }
+      ]
+    },
+    {
+      "id": 9706,
+      "courseid": 0,
+      "number": 55,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "4    - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "7",
+          "rawval": "7"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "80% .. 100%",
+          "rawval": "5"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "3",
+          "rawval": "3"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "",
+          "rawval": ""
+        }
+      ]
+    },
+    {
+      "id": 9720,
+      "courseid": 0,
+      "number": 56,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "5    - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "7",
+          "rawval": "7"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "60% .. 80%",
+          "rawval": "4"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "3",
+          "rawval": "3"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "",
+          "rawval": ""
+        }
+      ]
+    },
+    {
+      "id": 9130,
+      "courseid": 0,
+      "number": 57,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "3    - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "5",
+          "rawval": "5"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "60% .. 80%",
+          "rawval": "4"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "2",
+          "rawval": "2"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "",
+          "rawval": ""
+        }
+      ]
+    },
+    {
+      "id": 11775,
+      "courseid": 0,
+      "number": 58,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "3    - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "7",
+          "rawval": "7"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "40% .. 60%",
+          "rawval": "3"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "3",
+          "rawval": "3"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        }
+      ]
+    },
+    {
+      "id": 11525,
+      "courseid": 0,
+      "number": 59,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "3    - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "7",
+          "rawval": "7"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "40% .. 60%",
+          "rawval": "3"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "1  - Deloc de acord",
+          "rawval": "5"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "2",
+          "rawval": "2"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "",
+          "rawval": ""
+        }
+      ]
+    },
+    {
+      "id": 9723,
+      "courseid": 0,
+      "number": 60,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "4    - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "7",
+          "rawval": "7"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "60% .. 80%",
+          "rawval": "4"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "2",
+          "rawval": "2"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        }
+      ]
+    },
+    {
+      "id": 12517,
+      "courseid": 0,
+      "number": 61,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "3    - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "8",
+          "rawval": "8"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "60% .. 80%",
+          "rawval": "4"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "1",
+          "rawval": "1"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329271,
+          "name": "feedback scris",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "",
+          "rawval": ""
+        }
+      ]
+    },
+    {
+      "id": 8850,
+      "courseid": 0,
+      "number": 62,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "2    - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "7",
+          "rawval": "7"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "40% .. 60%",
+          "rawval": "3"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "2",
+          "rawval": "2"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        }
+      ]
+    },
+    {
+      "id": 11947,
+      "courseid": 0,
+      "number": 63,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "3    - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "7",
+          "rawval": "7"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "60% .. 80%",
+          "rawval": "4"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "3",
+          "rawval": "3"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        }
+      ]
+    },
+    {
+      "id": 9727,
+      "courseid": 0,
+      "number": 64,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "3    - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "6",
+          "rawval": "6"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "60% .. 80%",
+          "rawval": "4"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "",
+          "rawval": "0"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "2",
+          "rawval": "2"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "-",
+          "rawval": "-"
+        }
+      ]
+    },
+    {
+      "id": 9589,
+      "courseid": 0,
+      "number": 65,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "3    - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "5",
+          "rawval": "5"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "40% .. 60%",
+          "rawval": "3"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "2  - ...",
+          "rawval": "4"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "2",
+          "rawval": "2"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "",
+          "rawval": ""
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "",
+          "rawval": ""
+        }
+      ]
+    },
+    {
+      "id": 9937,
+      "courseid": 0,
+      "number": 66,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "4    - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "6",
+          "rawval": "6"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "60% .. 80%",
+          "rawval": "4"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "3  - ...",
+          "rawval": "3"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "2",
+          "rawval": "2"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "4  - ...",
+          "rawval": "2"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        }
+      ]
+    },
+    {
+      "id": 11814,
+      "courseid": 0,
+      "number": 67,
+      "responses": [
+        {
+          "id": 329243,
+          "name": "Subject",
+          "printval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD",
+          "rawval": "03-ACS-L-CTI-Calculatoare-A1-S2-XXX-CD"
+        },
+        {
+          "id": 329244,
+          "name": "Teacher",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329245,
+          "name": "Laboratory/seminar/project ...",
+          "printval": "Prenume NUME",
+          "rawval": "Prenume NUME"
+        },
+        {
+          "id": 329248,
+          "name": "Is your assessment of this ...",
+          "printval": "5    - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329249,
+          "name": "What grade do you expect to...",
+          "printval": "10",
+          "rawval": "10"
+        },
+        {
+          "id": 329250,
+          "name": "Is the general workload in ...",
+          "printval": "1  - Deloc de acord",
+          "rawval": "5"
+        },
+        {
+          "id": 329251,
+          "name": "Location / hardware and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329253,
+          "name": "The approximate number of ...",
+          "printval": "80% .. 100%",
+          "rawval": "5"
+        },
+        {
+          "id": 329255,
+          "name": "Does the course tutor have ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329256,
+          "name": "Was the teaching method ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329257,
+          "name": "Did the course stimulate ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329258,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329259,
+          "name": "Are the teaching materials ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329261,
+          "name": "Does the laboratory teacher...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329262,
+          "name": "Did the laboratory teacher ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329263,
+          "name": "Did the applications ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329264,
+          "name": "Was the behavior of the ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329265,
+          "name": "Are the teaching materials ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329267,
+          "name": "Estimate the average number...",
+          "printval": "5",
+          "rawval": "5"
+        },
+        {
+          "id": 329268,
+          "name": "Were the amount and ...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329269,
+          "name": "Did the topics / projects /...",
+          "printval": "5  - Complet de Acord",
+          "rawval": "1"
+        },
+        {
+          "id": 329271,
+          "name": "What are the positive ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329272,
+          "name": "What do you think needs to ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329273,
+          "name": "In your opinion, the main ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        },
+        {
+          "id": 329274,
+          "name": "Other personal comments or ...",
+          "printval": "feedback scris",
+          "rawval": "feedback scris"
+        }
+      ]
+    }
+  ],
+  "totalanonattempts": 67,
+  "warnings": []
+}
