@@ -21,3 +21,5 @@ TAGS
 .gdb_history
 peda-session-*.txt
 core
+.DS_Store
+feedback_contents/
