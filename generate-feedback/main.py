@@ -3,22 +3,20 @@ import json
 import os
 import random
 
-# Macrouri pt limitele numarului de studenti
+# Constants for student count limits
 MIN_STUDENTS = 20
 MAX_STUDENTS = 100
 
-
 def load_pickle(filename):
-    # Incarca fisierele .p
+    # Loads .p files
     if not os.path.exists(filename):
         print(f"FILE NOT FOUND: '{filename}'.")
         return []
     with open(filename, 'rb') as f:
         return pickle.load(f)
 
-
 def get_random_response(question_type):
-    # Genereaza raspunsuri random respectand logica formularelor de feedback
+    # Generates random responses respecting the feedback form logic
     if question_type == "grade":
         grade = random.randint(5, 10)
         return str(grade), str(grade)
@@ -45,9 +43,8 @@ def get_random_response(question_type):
 
     return "", ""
 
-
 def generate_feedback_data(feedback_id, course_name, teacher_name, num_students):
-    # Construieste structura JSON pentru un singur formular
+    # Builds the JSON structure for a single feedback form
     anon_attempts = []
 
     base_attempt_id = feedback_id
@@ -74,7 +71,7 @@ def generate_feedback_data(feedback_id, course_name, teacher_name, num_students)
         responses = []
         current_attempt_id = base_attempt_id + i
 
-        # Sablonul pt afisarea datelor
+        # Template for data display
         for q_name, q_type, q_default in questions_structure:
             entry = {
                 "id": current_response_global_counter,
@@ -113,7 +110,6 @@ def generate_feedback_data(feedback_id, course_name, teacher_name, num_students)
         "warnings": []
     }
 
-
 def main():
     feedbacks = load_pickle('feedbacks.p')
     courses = load_pickle('courses.p')
@@ -135,7 +131,7 @@ def main():
         course_id = fb.get('course')
 
         if fb_id:
-            # Se cauta cursul
+            # Find the course
             course_obj = courses_map.get(course_id)
             course_name = "Curs Necunoscut"
             category_name = ""
@@ -146,22 +142,22 @@ def main():
                 if cat_id and cat_id in categories_map:
                     category_name = categories_map[cat_id].get('name', '')
 
-            # Compunere nume materie
+            # Compose subject name
             full_subject_name = course_name
             if category_name:
                 full_subject_name += f" ({category_name})"
 
-            # Date simulate
+            # Simulated data
             teacher_name = "Prenume NUME"
             num_students = random.randint(MIN_STUDENTS, MAX_STUDENTS)
 
-            # Generare Json
+            # Generate JSON
             json_data = generate_feedback_data(fb_id, full_subject_name, teacher_name, num_students)
 
-            # Salvare fisier
+            # Save file
             filename = os.path.join(output_dir, f"{fb_id}.json")
             with open(filename, 'w', encoding='utf-8') as f:
-                # feedback-uri cu diacritice, deci folosim ensure_ascii=False
+                # Feedbacks contain diacritics, so we use ensure_ascii=False
                 json.dump(json_data, f, indent=2, ensure_ascii=False)
 
             count += 1
@@ -169,7 +165,6 @@ def main():
                 print(f"Generating {count} files...")
 
     print(f"Generated {count} files in '{output_dir}'.")
-
 
 if __name__ == "__main__":
     main()
