@@ -25,3 +25,5 @@ core
 feedback_contents/
 generator.log
 pickles/
+# generator output (OUTPUT_DIR): ~60 MB for ACS alone -- regenerate it, don't commit it
+out/
